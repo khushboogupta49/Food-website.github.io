@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+  <!-- header section starts  -->
+
+<header>
+
+    <h1 class="heading">order</h1>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+    
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+   
+
+</header>
+
+<!-- header section ends -->
+
+  
+
+  <!-- order section start -->
+
+  <section class="order" id="order">
+  
+      {{!-- <h1 class="heading"> <span>order</span> now </h1> --}}
+     
+  <h1>Order now</h1>
+      <div class="row">
+          
+          <div class="image">
+              <img src=" images/order-img.jpg" alt="">
+          </div>
+  
+          <form action="/order" method="post">
+  
+              <div class="inputBox">
+                  <input type="text" name ="fullname" id = "fullname" placeholder="Enter your full name">
+                  <input type="email" name = "email" id = "email" placeholder="Enter your email">
+              </div>
+  
+              <div class="inputBox">
+                  <input type="mobile" name = "mobile" id = "number" placeholder="Enter your mobile" >
+                  <input type="food" name ="food name" id ="food name" placeholder="Enter food name">
+              </div>
+  
+              <textarea placeholder="address" name ="address" id="address" cols="30" rows="10"></textarea>
+  
+              <input type="submit" value="order now" class="btn">
+  
+          </form>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224116.6149267178!2d77.06118515820918!3d28.63509322368413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd2243da6f49%3A0x100dc5b2e512c7f4!2sDelhi%20street%20food!5e0!3m2!1sen!2sin!4v1670417077634!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+      </div>
+  
+  
+  
+  </section>
+  
+  <!-- order section ends -->
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>  
+
+</body>
+</html>
