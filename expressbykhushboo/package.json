@@ -1,5 +1,5 @@
 {
-  "name": "Food-website.github.io",
+  "name": "expressbykhushboo",
   "version": "1.0.0",
   "description": "express using website",
   "main": "app.js",
@@ -8,17 +8,11 @@
     "dev":"nodemon src/app.js -e js, hbs"
   },
   
-  "repository": {
-        "type": "git",
-       "url": "git+https://github.com/khushboogupta49/Food-website.github.io.git"
-    },
+  
   "author": "khushboo kumari",
   "license": "ISC",
-  "bugs": {
-        "url": "https://github.com/khushboogupta49/Food-website.github.io/issues"
-   },
-  "homepage": "https://github.com/khushboogupta49/Food-website.github.io#readme"
-}
+
+  
   
   "dependencies": {
     "express": "^4.18.2",
